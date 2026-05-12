@@ -81,7 +81,15 @@ Several CNN architectures were evaluated to identify the best model for the prop
 | ResNet50 | 99.30% | 0.0281 |
 | ResNet152V2 | 99.30% | 0.0788 |
 
-MobileNetV2 was selected as the final model because it achieved the best accuracy and lowest loss while also being suitable for mobile deployment.
+The final model was based on MobileNetV2, selected due to its high test accuracy, low loss, and suitability for mobile deployment.
+
+<p align="center">
+  <img src="images/mobilenetv2-architecture.png" alt="MobileNetV2 architecture used in the project" width="800"/>
+</p>
+
+<p align="center">
+  <em>Simplified architecture of the MobileNetV2-based neural network used for coffee leaf classification.</em>
+</p>
 
 ## Mobile Application
 
